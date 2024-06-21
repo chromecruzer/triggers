@@ -25,7 +25,7 @@ function startFetching(urls: string[], interval: number) {
 }
 
 // 15 minutes in milliseconds
-const fifteenMinutes = 15 * 60 * 1000;
+const fifteenMinutes = 10 * 60 * 1000;
 
 // Start fetching all URLs at the specified interval
 startFetching(urls, fifteenMinutes);
