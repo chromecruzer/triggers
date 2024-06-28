@@ -1,6 +1,7 @@
 const urls = [
   "https://susmitha-maria.onrender.com/",
   "https://jnj-scam.onrender.com/",
+  "https://global-chat-zl7b.onrender.com/",
 ];
 
 async function fetchUrl(url: string) {
@@ -25,7 +26,7 @@ function startFetching(urls: string[], interval: number) {
 }
 
 // 15 minutes in milliseconds
-const fifteenMinutes = 10 * 60 * 1000;
+const fifteenMinutes = 1 * 60 * 1000;
 
 // Start fetching all URLs at the specified interval
 startFetching(urls, fifteenMinutes);
